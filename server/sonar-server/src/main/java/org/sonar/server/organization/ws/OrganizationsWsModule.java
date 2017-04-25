@@ -37,8 +37,7 @@ public class OrganizationsWsModule extends Module {
       SearchAction.class,
       SearchMembersAction.class,
       SearchMyOrganizationsAction.class,
-      UpdateAction.class,
-      UpdateProjectVisibilityAction.class);
+      UpdateAction.class);
   }
 
 }
