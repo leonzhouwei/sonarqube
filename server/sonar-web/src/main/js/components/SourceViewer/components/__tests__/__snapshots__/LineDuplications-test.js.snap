@@ -1,4 +1,6 @@
-exports[`test render duplicated line 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render duplicated line 1`] = `
 <td
   className="source-meta source-line-duplications source-line-duplicated"
   data-placement="right"
@@ -6,16 +8,20 @@ exports[`test render duplicated line 1`] = `
   onClick={[Function]}
   role="button"
   tabIndex={0}
-  title="source_viewer.tooltip.duplicated_line">
+  title="source_viewer.tooltip.duplicated_line"
+>
   <div
-    className="source-line-bar" />
+    className="source-line-bar"
+  />
 </td>
 `;
 
-exports[`test render not duplicated line 1`] = `
+exports[`render not duplicated line 1`] = `
 <td
-  className="source-meta source-line-duplications">
+  className="source-meta source-line-duplications"
+>
   <div
-    className="source-line-bar" />
+    className="source-line-bar"
+  />
 </td>
 `;

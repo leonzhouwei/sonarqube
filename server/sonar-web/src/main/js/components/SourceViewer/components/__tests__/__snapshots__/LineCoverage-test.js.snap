@@ -1,4 +1,6 @@
-exports[`test render covered line 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render covered line 1`] = `
 <td
   className="source-meta source-line-coverage source-line-covered"
   data-line-number={3}
@@ -7,22 +9,26 @@ exports[`test render covered line 1`] = `
   onClick={[Function]}
   role="button"
   tabIndex={0}
-  title="source_viewer.tooltip.covered">
+  title="source_viewer.tooltip.covered"
+>
   <div
-    className="source-line-bar" />
+    className="source-line-bar"
+  />
 </td>
 `;
 
-exports[`test render line with unknown coverage 1`] = `
+exports[`render line with unknown coverage 1`] = `
 <td
   className="source-meta source-line-coverage"
-  data-line-number={3}>
+  data-line-number={3}
+>
   <div
-    className="source-line-bar" />
+    className="source-line-bar"
+  />
 </td>
 `;
 
-exports[`test render uncovered line 1`] = `
+exports[`render uncovered line 1`] = `
 <td
   className="source-meta source-line-coverage source-line-uncovered"
   data-line-number={3}
@@ -31,8 +37,10 @@ exports[`test render uncovered line 1`] = `
   onClick={[Function]}
   role="button"
   tabIndex={0}
-  title="source_viewer.tooltip.uncovered">
+  title="source_viewer.tooltip.uncovered"
+>
   <div
-    className="source-line-bar" />
+    className="source-line-bar"
+  />
 </td>
 `;
